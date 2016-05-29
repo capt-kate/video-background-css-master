@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {  /* reset the page */
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
+header .top-title {
+	background-color: #fd00cb;
+	}
+article p {
+	margin: 10px 5%;
+	font-size: 1.5em;
+}
+section {
+	padding: 0 10px 30px 10px;
+	background-color: #E0E0E0;
+}
+footer {
+	align-content: center;
+}
+
+
+
+/**************************************************************/
+/*  HEADINGS   */
+
+h1, h1, h3, h4, h5, h6 {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	letter-spacing: 2%;
+	text-align: center;
+}
+
+h1 { font-size: 3em; padding: 45px; }
+article h1 { color: #1D234B; font-size: 2.5em; padding: 100px; }
+section h1 { color:#BF03EA; font-size: 1.5em; padding: 50px 0 25px 0; }
+
+
+
+/**************************************************************/
+/*  PARALLAX IMAGES */
+
+.parallax1 { 
+	background: url(../images/parallax1.jpg) fixed; 
+	background-size: cover;
+	}
+.parallax2 { 
+	background: url(../images/parallax2.jpg) fixed; 
+	background-size: cover;
+	}
+.parallax3 { 
+	background: url(../images/parallax3.jpg) fixed;
+	background-size: cover;
+ }
+
+
+.parallax1, .parallax2, .parallax3 {
+	color: #ffffff;
+	margin: 0;
+	background-color: #FA0004; 
+}
+
+.parallaxvideo { 
+	height: 100%; 
+	padding-bottom: 0;
+    padding-top: 500px;
+}
+.parallax-video video { 
+    min-width: 100%;
+    position: fixed;
+	top:0px;
+	z-index: -100;
+}
+
+
